@@ -67,5 +67,9 @@
     "cb",
     "function",
     "fcn"
-  ]
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
 }
