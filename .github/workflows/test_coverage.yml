@@ -73,4 +73,3 @@ jobs:
           webhook_url: ${{ secrets.STDLIB_COVERAGE_URL }}
           webhook_secret: ${{ secrets.STDLIB_WEBHOOK_SECRET }}
           data: '${{ steps.extract-coverage.outputs.coverage }}'
-        if: ${{ false }}
