@@ -31,6 +31,12 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import noop from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-noop@esm/index.mjs';
+```
+
+Above will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by importing from one of the bundle tags (click [here](https://github.com/stdlib-js/utils-noop/tags) for a list of available tags). For example,
+
+```javascript
 import noop from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-noop@v0.0.13-esm/index.mjs';
 ```
 
@@ -59,7 +65,7 @@ noop();
 <body>
 <script type="module">
 
-import noop from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-noop@v0.0.13-esm/index.mjs';
+import noop from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-noop@esm/index.mjs';
 
 function foo( next ) {
     // Do something...
