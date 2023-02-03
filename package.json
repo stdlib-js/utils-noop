@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-noop",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Function which does nothing.",
   "license": "Apache-2.0",
   "author": {
@@ -38,8 +38,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@stdlib/assert-is-undefined": "^0.0.x",
-    "@stdlib/bench": "^0.0.x",
+    "@stdlib/assert-is-undefined": "^0.0.8",
+    "@stdlib/bench": "^0.0.12",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
