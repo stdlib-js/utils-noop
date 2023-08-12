@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../tmp/main.js", "../tmp/index.js"],
-  "sourcesContent": ["/** @license Apache-2.0 */\nfunction noop() {}\nmodule.exports = noop;\n", "/** @license Apache-2.0 */\n'use strict';\nvar main = require( './main.js' );\nmodule.exports = main;\n"],
-  "mappings": "uGAAA,IAAAA,EAAAC,EAAA,SAAAC,EAAAC,EAAA,cACA,SAASC,GAAO,CAAC,CACjBD,EAAO,QAAUC,ICAjB,IAAIC,EAAO,IACX,OAAO,QAAUA",
-  "names": ["require_main", "__commonJSMin", "exports", "module", "noop", "main"]
-}
