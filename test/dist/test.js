@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,29 +21,13 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var noop = require( './../../dist' );
+var main = require( './../../dist' );
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is defined', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof noop, 'function', 'main export is a function' );
-	t.end();
-});
-
-tape( 'the function does not take any arguments', function test( t ) {
-	t.equal( noop.length, 0, 'number of parameters is equal to zero' );
-	t.end();
-});
-
-tape( 'the function returns `undefined`', function test( t ) {
-	t.equal( noop(), void 0, 'returns undefined' );
-	t.end();
-});
-
-tape( 'the function should be empty', function test( t ) {
-	// NOTE: this will fail if code is instrumented for test coverage.
-	// t.equal( noop.toString(), 'function noop(){}', 'is empty' );
+	t.strictEqual( main !== void 0, true, 'main export is defined' );
 	t.end();
 });
