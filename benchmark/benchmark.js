@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var isUndefined = require( '@stdlib/assert-is-undefined' );
 var pkg = require( './../package.json' ).name;
 var noop = require( './../lib' );
