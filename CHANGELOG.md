@@ -2,32 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="v0.2.1">
+<section class="release" id="unreleased">
 
-## 0.2.1 (2024-02-21)
-
-<section class="features">
-
-### Features
-
--   [`ace728f`](https://github.com/stdlib-js/stdlib/commit/ace728f330033182c28199dc9e13d75eda18cfe0) - update minimum TypeScript version
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-### BREAKING CHANGES
-
--   [`ace728f`](https://github.com/stdlib-js/stdlib/commit/ace728f330033182c28199dc9e13d75eda18cfe0): update minimum TypeScript version
--   [`ace728f`](https://github.com/stdlib-js/stdlib/commit/ace728f330033182c28199dc9e13d75eda18cfe0): update minimum TypeScript version to 4.1 
-
-    -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
-
-</section>
-
-<!-- /.breaking-changes -->
+## Unreleased (2024-07-01)
 
 <section class="commits">
 
@@ -35,8 +12,7 @@
 
 <details>
 
--   [`ace728f`](https://github.com/stdlib-js/stdlib/commit/ace728f330033182c28199dc9e13d75eda18cfe0) - **feat:** update minimum TypeScript version _(by Philipp Burckhardt)_
--   [`55866ea`](https://github.com/stdlib-js/stdlib/commit/55866ea8ef1282528b839fd9ce9c43c6a80056f8) - **test:** use strictEqual checks _(by Philipp Burckhardt)_
+-   [`a591e05`](https://github.com/stdlib-js/stdlib/commit/a591e052cf1b1515c267781b914c6a482e150425) - **test:** fix test configuration _(by Athan Reines)_
 
 </details>
 
@@ -50,7 +26,7 @@
 
 A total of 1 person contributed to this release. Thank you to this contributor:
 
--   Philipp Burckhardt
+-   Athan Reines
 
 </section>
 
