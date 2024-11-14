@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2024-11-14)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`ba55900`](https://github.com/stdlib-js/stdlib/commit/ba55900d1ba756a96747c5b0d9b14eb5e4c664fc) - **docs:** update README examples to use const and let _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-26)
