@@ -60,7 +60,7 @@ To view installation and usage instructions specific to each branch build, be su
 ## Usage
 
 ```javascript
-const noop = require( '@stdlib/utils-noop' );
+var noop = require( '@stdlib/utils-noop' );
 ```
 
 #### noop()
@@ -83,7 +83,7 @@ noop();
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-const noop = require( '@stdlib/utils-noop' );
+var noop = require( '@stdlib/utils-noop' );
 
 function foo( next ) {
     // Do something...
