@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import noop from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-noop@esm/index.mjs';
+import noop from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-noop@v0.2.3-esm/index.mjs';
 ```
 
 #### noop()
@@ -70,7 +70,7 @@ noop();
 <body>
 <script type="module">
 
-import noop from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-noop@esm/index.mjs';
+import noop from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-noop@v0.2.3-esm/index.mjs';
 
 function foo( next ) {
     // Do something...
